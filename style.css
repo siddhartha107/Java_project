@@ -1,0 +1,49 @@
+.inputDiv{
+    display: flex;
+    justify-content: space-between;
+}
+.addCustomerDiv{
+    margin: 5%;
+    width: 70%;
+}
+.addCustomerDiv h1{
+    margin-left: 1%;
+}
+ button{
+    margin: 1%;
+    width: 120px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgba(17, 94, 238, 0.904);
+    color: white;
+    font-size: larger;
+}
+input{
+    width: 400px;
+    margin: 1%;
+    height: 40px;
+    border-radius: 13px;
+}
+th,td{
+    width: 132px;
+    height: 45px;
+    text-align: left;
+    display: inline-flex;
+    align-items: center;
+    overflow: scroll;
+    margin: 4px;
+}
+th{
+    font-weight: 900;
+    font-size: x-large;
+    background-color: mintcream;
+}
+#dash-board-div > :first-child{
+    display: flex;
+    justify-content: flex-start;
+    gap: 27%;
+}
+
+#loginDiv >h1{
+   margin: 1%;
+}
